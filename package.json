@@ -23,7 +23,8 @@
     "@shadcn/ui": "latest",
     "tailwindcss": "latest",
     "autoprefixer": "latest",
-    "postcss": "latest"
+    "postcss": "latest",
+    "@hookform/resolvers": "latest"
   },
   "devDependencies": {
     "eslint": "latest",
