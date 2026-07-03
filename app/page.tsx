@@ -1,3 +1,7 @@
+import dynamic from 'next/dynamic'
+
+const ContactForm = dynamic(() => import('../components/ContactForm'), { ssr: false })
+
 export default function Home(){
   return (
     <section className="max-w-6xl mx-auto px-6 py-12">
@@ -14,7 +18,7 @@ export default function Home(){
       <section id="contact" className="py-10">
         <h2 className="text-2xl font-semibold">Contact</h2>
         <div className="mt-4">
-          {/* ContactForm is client component - import dynamically in future for performance */}
+          <ContactForm />
         </div>
       </section>
     </section>
