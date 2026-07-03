@@ -1,0 +1,14 @@
+/* animations.css
+   GSAP / AOS initial helpers and simple keyframes
+*/
+
+/* subtle floating */
+@keyframes floatY {0%{transform:translateY(0)}50%{transform:translateY(-8px)}100%{transform:translateY(0)}}
+.hero-media img{animation:floatY 6s ease-in-out infinite}
+
+/* gradient accent animation */
+@keyframes gradientShift {0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.btn.primary{background-size:200% 200%;animation:gradientShift 6s linear infinite}
+
+/* cursor glow placeholder */
+.cursor-glow{position:fixed;pointer-events:none;width:220px;height:220px;border-radius:50%;transform:translate(-50%,-50%);mix-blend-mode:screen;filter:blur(30px);opacity:0.25}

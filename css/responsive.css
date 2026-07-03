@@ -1,0 +1,7 @@
+/* responsive.css - additional media queries */
+@media (max-width:600px){
+  .container{padding:0 14px}
+  .hero-title{font-size:1.6rem}
+  .projects-grid .project-card img{height:140px}
+  .counters{flex-direction:column}
+}
