@@ -1,7 +1,7 @@
-import './styles/globals.css'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Projects from './components/Projects'
+import '../styles/globals.css'
+import Header from '../components/Header'
+import Hero from '../components/Hero'
+import Projects from '../components/Projects'
 
 export const metadata = {
   title: 'Saren — Cloud & Payments Engineer',
