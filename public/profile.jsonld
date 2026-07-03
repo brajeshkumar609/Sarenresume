@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Saren",
+  "url": "https://your-domain.com",
+  "sameAs": [
+    "https://github.com/brajeshkumar609",
+    "https://www.linkedin.com/"
+  ],
+  "jobTitle": "Principal Cloud & Payments Engineer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Self"
+  }
+}
